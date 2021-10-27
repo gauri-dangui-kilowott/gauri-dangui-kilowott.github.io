@@ -72,15 +72,15 @@ p{
 	  		<div class="container ">
 	  		<div class="row">
 			<div class="col-sm-4 col-2 fixed-top cont">
-				<p> My Self </p>
-				<p> My Skills</p>
-				<p> My Interests</p>
+				<p class="collapse" data-target="myself"> My Self </p>
+				<p class="collapse" data-target="myskills"> My Skills</p>
+				<p class="collapse" data-target="myinterests">  My Interests</p>
 		</div>
 	</div>
 	</div>
 	<div class="container">
 		<div class="row">
-		<div class="col-sm-8 offset-sm-6 two">
+		<div class="col-sm-8 offset-sm-6 two collapse" id="myself">
 			<img src="My_img.jpg" alt="">
 		  <p style="position: left;">I am an energetic, ambitious person
 			who has developed a mature and
@@ -93,7 +93,7 @@ p{
 			ethic.</p>
 		</div>
 	
-	<div class="col-sm-8 offset-sm-6 one">
+	<div class="col-sm-8 offset-sm-6 one collapse" id="myskills">
 				<h2>My Skills</h2>
 				<ul>
 					 <li>Mad Hacker</li>
@@ -103,7 +103,7 @@ p{
 
 		</div>
 
-	<div class="col-sm-8 offset-sm-6 two">
+	<div class="col-sm-8 offset-sm-6 two collapse" id="myinterests">
 				<h2>My Interests</h2>
 				<ul>
 					 <li>Building paper planes</li>
@@ -112,7 +112,7 @@ p{
 				</ul>
 
 		</div>
-	<div class="col-sm-8 offset-sm-6 one">
+	<div class="col-sm-8 offset-sm-6 one" id="Tutorials">
 				<ul>
 					<h3>Tutorials </h3>
 					 <li>Building paper planes</li>
