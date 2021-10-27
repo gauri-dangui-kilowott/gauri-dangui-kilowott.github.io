@@ -1,252 +1,87 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Gauri Dangui</title>
-	<style>
-		*
-	{
-		box-sizing: border-box;
-	}
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	div.background {
-  background: url("portfolio2.jpg")repeat;
-  border: 2px solid black;
-}
+    <style>
+        .nav{
+            background-color: red;
+        }
 
+        ul.nav li a{
+            color: white;
+        }
 
+        .con{
+            padding-left: 100px;
+            padding-bottom: 300px;
+            padding-top: 100px;
+            position: center;
+        }
+    </style>
 
-div.a1{
-	background-color: cadetblue;
-	padding: 10px;
-	}
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-div.transbox {
-  margin: 30px;
-  background-color: #ffffff;
-  border: 1px solid black;
-  opacity: 0.6;
-}
+    <title>My Skills</title>
+  </head>
+  <body>
 
-div.transbox h1 {
-  margin: 5%;
-  font-weight: bold;
-  color: #000000;
-}
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-.column-2 {
-  float: left;
-  width: 45%;
-  padding: 40px;
-  padding-left:70px;
-  padding-right: 70px;
-  height: 355px;
-  margin:30px;
-  margin-right:30px;
-  margin-bottom: 70px;
-  background-color: lightcoral;
-  line-height:2;
-}
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Links</a>
+        </li>
 
-.profile-picha {
-  background: url("Portfolio.jpeg");
-  background-size: cover ;
-  background-position: center;
-}
+        <li class="nav justify-content-end">
+            <a class="nav-link" href="#" >login gramavatar</a>
 
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
-  font-family: arial;
-}
+        </li>
 
-/* Float four columns side by side */
-.column {
-  float: left;
-  width: 25%;
-  padding: 0 10px;
-}
+      </ul>
 
-.card1 {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
-  text-align: center;
-  background-color: #f1f1f1;
-}
+      <div class="container-fluid">
+        <div class="row justify-content-md-center" style="background-color:lightgrey; ;">
+          <div class=" col-md-3" style="background-color: limegreen;">
+           <ul>
+            <li class="nav-item">
+                <a class="nav-link" href="#">My Self</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">My skills</a>
+              </li>
+      
+              <li class="nav-item">
+                  <a class="nav-link" href="#" >My Interests</a>
+      
+              </li>
+           </ul>
+          </div>
+          <div class=" col-md-9 con" style="background-color: mediumspringgreen;">
+            <img src="" alt="">
+        <p></p>
+          </div>
+        </div>
+        </div>
 
-.card2 {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
-  text-align: center;
-  background-color: lightcyan;
-}
+      <footer class="page-footer font-small blue">
 
-.card3 {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
-  text-align: center;
-  background-color: lightpink;
-}
-
-.card4 {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
-  text-align: center;
-  background-color: lightsalmon;
-}
-/* Remove extra left and right margins, due to padding */
-.row1 {margin: 0 -5px;}
-
-/* Clear floats after the columns */
-.row1:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-div.i{
-			margin-right: 200px;
-			margin-left: 230px;
-			margin-top:30px ;
-			margin-bottom:30px ;
-			height: 90%;
-			width: 60%;
-			 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-			 background-color: white;
-		}
-
-
-
-img.x{
-	width: 180px;
-	height: 200px;
-	padding: 10px 20px;
-	
-}
-
-p{
-	text-align: center;
-	color: beige;
-}
-a{
-	text-align: center;
-	font-size: medium;
-}
-
-ul{
-	color: beige;
-}
-
-li{
-	text-align: center;
-}
-
-
-.col-1{
-		width: 25%;
-}
-	</style>
-</head>
-<body style="background-image: url(keyborad.jpg); background-size: cover;">
-	<div class="background">
-	<div class="transbox"style=" text-align: center;">
-	<h1> Gauri Dangui</h1>
-	<p style="color: black;"><b>The Foodie_Explorer<p>
-	<p style="color: black;"><b>Software Trainee at Kilowott<p>
-	</div>
-</div>
-	<div class="column-2">
-		<h2 style="text-align: center;">About Me </h2>
-		<p style="color: black;">I am an energetic, ambitious person
-who has developed a mature and
-responsible approach to any task that I
-undertake , or situation I am presented
-with. I have a good level of working
-with people of different ideas to
-achieve a certain objective on time
-and with excellence and a strong work
-ethic.
-</p>
-	</div>
-
-	<div class="column-2">
-		<img src="my_pic.jpg">
-
-	</div>
-	<div> 
-		<h1 style="color:white; text-align: center;">My Education Journey </h1>
-		 <p>
-		 	Masters in Information Technology, PCCE, Verna, Goa
-		 	CGPA:6.85
-		 </p>
-		 <p>Bachelor's Degree at Agnel Institute of Technology and Design,Mapusa
-		 	 Percentage: 61% <p>
-		 <p>
-		 	Higher Secondary at St. Xavier's, Mapusa.
-		 	Percentage :77.5%
-		 <p>
-		 <p>
-		 	Secondary at New Goa, Mapusa
-		 	Percentage : 90%
-		 <p>
-	</div>
-<div>
-	<h1 style="color:white; text-align: center;" >Leisure Time Activities </h1>
-		<p>Cooking</p>
-		<p>Gardening</p>
-		<p>Reading</p>
-		<p>Listening to Music</p>
-		<p>Travel and Explore</p>
-</div>
-
-<h1 style="color: white; text-align: center;">Have a look at my skills</h1>
-<div class="i">
-	
-	<img class="x" src="c++.png">
-	<img class="x" src="C-prog.jpg">
-	<img class="x" src="R.jpg">
-	<img class="x" src="python.jpg">
-</div>
-
-<div class="i">
-	<img class="x" src="js.png">
-	<img class="x" src="html-css.png">	
-	<img class="x" src="java.png">
-	<img class="x" src="iot.png">
-</div>
-
-<div class="row1">
-	<h1 style="text-align: center; color: white;">My Projects</h1>
-	<div class="column">
-	<div class="card1">
-		<p style="color: black;">Liver Functioning : A comparative analysis of different algorrithms</p>
-	</div>
-</div>
-<div class="column">
-	<div class="card2">
-		<p style="color: black;">Heart Disease Prediction using Machine Learning</p>
-	</div>
-</div>
-
-<div class="column">
-	<div class="card3">
-		<p style="color: black;">Tribute Page :  Web Development</p>
-	</div>
-</div>
-
-<div class="column">
-	<div class="card4">
-		<p style="color: black;">Photography Blog : Web Development</p>
-	</div>
-</div>
-</div>
-
-<div>
-	<h1 style="color: beige; text-align: center;"> Refer the tutorials below</h1>
-	<a href="tutorials.html"> Tutorials</a>
-</div>
-
-</body>
-
+		<!-- Copyright -->
+		<div class=" fixed-bottom footer-copyright text-left p-3" style="color:white;background-color:red; font-size: medium;"><b> Copyright © </b>
+		   <b>Kilowott Agencyy Pvt Lmt (2021)</b>
+		</div>
+		<!-- Copyright -->
+	  
+	  </footer>
+  </body>
 </html>
